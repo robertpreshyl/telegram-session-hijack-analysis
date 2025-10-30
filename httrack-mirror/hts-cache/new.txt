@@ -1,0 +1,4 @@
+date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
+13:41:40	0/0	---MC-	302	error ('Found')	text/html	date:Thu,%2030%20Oct%202025%2013:41:40%20GMT	https://ukr-up.getsolar.store/ukr-tg/540	./httrack-mirror/ukr-up.getsolar.store/ukr-tg/540.0.delayed	(from )
+13:41:41	481/481	---M-Z	200	added ('OK')	text/plain	date:Thu,%2030%20Oct%202025%2013:41:41%20GMT	https://www.tiktok.com/robots.txt		(from )
+13:41:42	24/24	---M--	302	error ('Moved%20Temporarily')	text/html	date:Thu,%2030%20Oct%202025%2013:41:41%20GMT	https://www.tiktok.com/	./httrack-mirror/www.tiktok.com/index.html	(from )

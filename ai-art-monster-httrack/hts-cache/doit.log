@@ -1,0 +1,8 @@
+https://out.ai-art.monster/8K -O ./ai-art-monster-httrack -r3 -F Mozilla/5.0 -v
+File generated automatically on Thu, 30 Oct 2025 13:42:52, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

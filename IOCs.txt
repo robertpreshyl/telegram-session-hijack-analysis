@@ -1,0 +1,45 @@
+# Indicators of Compromise (IOCs)
+# Telegram Session Hijacking Campaign
+# Date: October 30, 2025
+# Threat: Telegram account takeover via malicious links
+
+# DOMAINS
+ai-art.monster
+out.ai-art.monster
+getsolar.store
+ukr-up.getsolar.store
+
+# IPs (Cloudflare - may host legitimate sites too)
+172.67.178.24
+104.21.67.161
+104.21.64.252
+172.67.138.127
+
+# MALICIOUS URLs
+https://out.ai-art.monster/8K
+https://ukr-up.getsolar.store/ukr-tg/540
+
+# URL PATTERNS (REGEX)
+https?://out\.ai-art\.monster/[0-9A-Za-z]+
+https?://.*\.getsolar\.store/ukr-tg/.*
+https?://.*\.ai-art\.monster/.*
+
+# REGISTRAR (High Risk)
+Atak Domain Bilgi Teknolojileri A.Ş.
+domain@apiname.com
+
+# NAMESERVERS
+kristin.ns.cloudflare.com
+nile.ns.cloudflare.com
+amber.ns.cloudflare.com
+zeus.ns.cloudflare.com
+
+# ATTACK CHARACTERISTICS
+- Newly registered domains (< 3 months)
+- Ukrainian language social engineering
+- Charity/contest theme
+- Dynamic polymorphic HTML content
+- Empty span/div structures
+- No-referrer meta tag
+- x-frame-options: ALLOWALL
+- Targets Telegram in-app browser
